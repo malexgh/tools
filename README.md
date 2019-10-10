@@ -10,4 +10,4 @@ It searches for 'adb.exe' and checks the version of each one of them. I built it
 
 ### Command line
 
-python adb-checker [path_to_search]
+python adb-checker.py [path_to_search]
