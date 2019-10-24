@@ -21,7 +21,7 @@ sudo apt-get -y install curl
 sudo apt-get -y install git
 git config --global user.email "$USER_EMAIL"
 git config --global user.name "$USER_NAME"
-ssh-keygen -t rsa -b 4096 -C "$USER_EMAIL"
+ssh-keygen -t rsa -b 4096 -C "$USER_EMAIL" -N "" -f ~/.ssh/id_rsa
 # add this new key on GitHub to use SSH
 
 # GitHub Public Repos
