@@ -17,6 +17,9 @@ sudo apt-get update
 # Curl
 sudo apt-get -y install curl
 
+# AB
+sudo apt-get -y install apache2-utils
+
 # Git
 sudo apt-get -y install git
 git config --global user.email "$USER_EMAIL"
