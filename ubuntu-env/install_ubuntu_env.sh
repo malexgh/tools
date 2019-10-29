@@ -42,6 +42,7 @@ source ~/.bashrc
 nvm install --lts
 npm install -g expo-cli
 npm install -g react-native-cli
+npm install -g pm2
 
 # Google Chrome
 # wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
