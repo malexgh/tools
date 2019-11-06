@@ -12,6 +12,11 @@ fi
 exec > install_ubuntu_env.log
 exec 2>&1
 
+# More Watchers for Nodemon
+echo fs.inotify.max_user_watches=16384 | sudo tee -a /etc/sysctl.conf
+sudo sysctl -p
+
+# Update first
 sudo apt-get update
 
 # Curl
